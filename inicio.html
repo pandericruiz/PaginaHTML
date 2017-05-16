@@ -1,0 +1,40 @@
+	<?php
+	if (isset($_COOKIE["idiomaTriat"])) { //Si existeix la cookie idiomaTriat
+	
+	if ($_COOKIE["idiomaTriat"]=="ang") {
+		header("Location:idiang.html");
+	}
+	if ($_COOKIE["idiomaTriat"]=="cas") {
+		header("Location:idicas.html");
+	}
+	if ($_COOKIE["idiomaTriat"]=="jap") {
+		header("Location:idijap.html");
+	}
+	?>
+<!DOCTYPE html>	
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>(Inicio)</title>
+	<link rel="stylesheet" type="text/css" href="estils.css">
+
+</head>
+
+<body>
+
+	
+	
+	
+	
+	
+	
+<p><h1>Escoje el idioma</h1></p>
+<div class="flag" id="ang"><a href="crearcookie.php?idioma=ang"><img src="ang.png" width="100%" height="100%"></a></div>
+<div class="flag" id="cas"><a href="crearcookie.php?idioma=cas"><img src="cas.png" width="100%" height="100%"></a></div>
+<div class="flag" id="jap"><a href="crearcookie.php?idioma=jap"><img src="japon.png" width="100%" height="100%"></a></div>
+
+</body>
+
+</html>
+
