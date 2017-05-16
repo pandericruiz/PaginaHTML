@@ -1,0 +1,27 @@
+.flag {
+	width: 150px;
+	height: 150px;
+	background-size: 100% 100%;
+}
+
+#ang {
+	position: fixed;
+	top: 50%;
+	left: 30%;
+}
+
+#cas {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+
+#jap {
+	position: fixed;
+	top: 50%;
+	left: 70%;
+}
+
+.flag:hover {
+	transform: scale(1.5,1.5);
+}
